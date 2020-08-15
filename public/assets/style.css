@@ -36,10 +36,31 @@ h1{
 p{
   font-size: 18px;
 }
-/* nav */
+
+/*--------------------------------------------------------------
+# All Sections
+--------------------------------------------------------------*/
+section {
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #f3f5fa;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+
+/*--------------------------------------------------------------
+# Nav bar
+--------------------------------------------------------------*/
 #navbar {
   overflow: hidden;
-  background-color: rgba(21, 27, 84, 0.8);
+  background-color: rgba(33, 47, 60, 0.9);
   z-index: 1;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -78,7 +99,7 @@ p{
   width: 100%;
   height: 100vh;
   background-color: black;
-  background-image: url("../img/mountintro.png");
+  background-image: url("img/mountintro.png");
   background-position: 60%;
   background-repeat: no-repeat;
   
@@ -160,70 +181,6 @@ p{
 }
 
 /*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
-section {
-  padding: 20px 0;
-  overflow: hidden;
-}
-
-.section-bg {
-  background-color: #f3f5fa;
-}
-
-.section-title {
-  text-align: center;
-  padding-bottom: 30px;
-}
-
-.section-title h2 {
-  font-size: 32px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  position: relative;
-  color: #37517e;
-}
-
-.section-title p {
-  margin-bottom: 0;
-
-}
-
-
-
-/*--------------------------------------------------------------
-# Our partners
---------------------------------------------------------------*/
-
-.content {
-  padding: 40px;
-}
-
-.partners{
-  background-color: white;
-}
-.partners .content ul{
-  padding-top: 20px;
-}
-.partners .content ul li {
-  padding-bottom: 10px;
-  font-size: 20px;
-  list-style: none;
-   
-}
-.partners .content ul li span {
-  position: relative;
-  left: -25px;
-}
-
-.partners .content p{
-  margin-bottom: 0;
-  font-size: 20px;
-}
-
-/*--------------------------------------------------------------
 # Micromobility Simplified
 --------------------------------------------------------------*/
 .services{
@@ -258,6 +215,41 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Our partners/3rd Party Data Provider
+--------------------------------------------------------------*/
+
+.content {
+  padding: 40px;
+}
+
+.partners{
+  background-color: white;
+  padding-top: 5rem;
+}
+.partners .content ul{
+  padding-top: 20px;
+  list-style: none;
+  font-size: 20px;
+  
+}
+
+.partners .content li{
+  padding-bottom: 10px;
+}
+   
+
+.partners .content ul li span {
+  position: relative;
+  left: -25px;
+}
+
+.partners .content p{
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+
+/*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
 .team .icon-box {
@@ -265,10 +257,12 @@ section {
   padding: 30px;
   transition: all ease-in-out 0.4s;
   background: #fff;
+  
 }
 
-.team .row {
-  padding-bottom: 1rem;
+.team .col-xl-4 {
+  padding-bottom: 20px;
+ 
 }
 
 .team .icon-box h4 {
