@@ -266,6 +266,18 @@ section {
   font-size: 20px;
 }
 
+/*--------------------------------------------------------------
+# Microfleets
+--------------------------------------------------------------*/
+
+#microfleets {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  background-image: url("img/microfleets.png");
+  background-position: 60%;
+  background-repeat: no-repeat; 
+}
 
 /*--------------------------------------------------------------
 # Team
