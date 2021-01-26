@@ -23,6 +23,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Jost", sans-serif;
   
 }
+h4{
+  color:rgba(33, 47, 60, 0.8)
+}
 h3{
   font-size: 2.5rem;
   padding-top:50px;
@@ -283,7 +286,7 @@ ul.description{
 /* experiences vertical line */
 ul.timeline:before {
   content: ' ';
-  background: rgba(33, 47, 60, 1);;
+  background: #212f3c;;
   display: inline-block;
   position: absolute;
   left: 16px;
